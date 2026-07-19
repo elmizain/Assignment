@@ -82,9 +82,21 @@
                 while (k <= 3);
 
                 Console.WriteLine();*/
-                // Question 7
+                /* Question 7
                 foreach (string book in books)
                 {
+                    Console.WriteLine(book);
+                }
+
+                Console.WriteLine();*/
+                // Question 8
+                foreach (string book in books)
+                {
+                    if (book == "Refactoring")
+                    {
+                        break;
+                    }
+
                     Console.WriteLine(book);
                 }
 
