@@ -46,17 +46,28 @@
                 }
 
                 Console.WriteLine();*/
-                // Question 4
                 string[] books =
                 {
             "Clean Code",
             "The Pragmatic Programmer",
             "Refactoring"
         };
+                /* Question 4
+                
 
                 for (int i = 0; i < books.Length; i++)
                 {
                     Console.WriteLine((i + 1) + ". " + books[i]);
+                }
+
+                Console.WriteLine();*/
+                // Question 5
+                int j = 0;
+
+                while (j < books.Length)
+                {
+                    Console.WriteLine(books[j]);
+                    j++;
                 }
 
                 Console.WriteLine();
