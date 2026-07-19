@@ -27,7 +27,7 @@
                 }
 
                 Console.WriteLine();*/
-                // Question 3
+                /* Question 3
                 string title = "Refactoring";
 
                 switch (title)
@@ -43,6 +43,20 @@
                     default:
                         Console.WriteLine("Never heard of it");
                         break;
+                }
+
+                Console.WriteLine();*/
+                // Question 4
+                string[] books =
+                {
+            "Clean Code",
+            "The Pragmatic Programmer",
+            "Refactoring"
+        };
+
+                for (int i = 0; i < books.Length; i++)
+                {
+                    Console.WriteLine((i + 1) + ". " + books[i]);
                 }
 
                 Console.WriteLine();
