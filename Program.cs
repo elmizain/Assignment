@@ -71,7 +71,7 @@
                 }
 
                 Console.WriteLine();*/
-                // Question 6
+                /* Question 6
                 int k = 1;
 
                 do
@@ -80,6 +80,13 @@
                     k++;
                 }
                 while (k <= 3);
+
+                Console.WriteLine();*/
+                // Question 7
+                foreach (string book in books)
+                {
+                    Console.WriteLine(book);
+                }
 
                 Console.WriteLine();
             }
