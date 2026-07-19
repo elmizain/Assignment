@@ -61,7 +61,7 @@
                 }
 
                 Console.WriteLine();*/
-                // Question 5
+                /* Question 5
                 int j = 0;
 
                 while (j < books.Length)
@@ -69,6 +69,17 @@
                     Console.WriteLine(books[j]);
                     j++;
                 }
+
+                Console.WriteLine();*/
+                // Question 6
+                int k = 1;
+
+                do
+                {
+                    Console.WriteLine("Checking book...");
+                    k++;
+                }
+                while (k <= 3);
 
                 Console.WriteLine();
             }
