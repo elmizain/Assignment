@@ -89,7 +89,7 @@
                 }
 
                 Console.WriteLine();*/
-                // Question 8
+                /* Question 8
                 foreach (string book in books)
                 {
                     if (book == "Refactoring")
@@ -100,8 +100,20 @@
                     Console.WriteLine(book);
                 }
 
-                Console.WriteLine();
+                Console.WriteLine();*/
+                // Question 9
+                foreach (string book in books)
+                {
+                    if (book == "The Pragmatic Programmer")
+                    {
+                        continue;
+                    }
+
+                    Console.WriteLine(book);
+                }
             }
         }
     }
+        
+    
 }
